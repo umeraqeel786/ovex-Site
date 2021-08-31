@@ -1,0 +1,25 @@
+.footer {
+position: relative;
+width: 2520px;
+height: 621px;
+left: 0px;
+top: 6133px;
+background: #FBF5F2;
+}
+.first{
+
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 50.5396px;
+line-height: 76px;
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
