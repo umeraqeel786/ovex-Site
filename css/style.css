@@ -1,0 +1,508 @@
+
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+.content {
+  padding: 7rem 0; }
+
+h2 {
+  font-size: 20px; }
+
+/* Carousel 4*/
+.testimony-29101 .image {
+  width: 40%;
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 991.98px) {
+    .testimony-29101 .image {
+      height: 300px; } }
+
+.testimony-29101 .text {
+  width: 60%;
+  padding: 7rem 4rem;
+  
+   }
+  .testimony-29101 .text blockquote {
+    position: relative;
+    padding-bottom: 50px;
+    font-size: 18px; }
+    .testimony-29101 .text blockquote .author {
+      font-size: 14px;
+      position: absolute;
+      bottom: 0; }
+
+@media (max-width: 991.98px) {
+  .testimony-29101 .image, .testimony-29101 .text {
+    width: 100%;
+    display: block !important; }
+    .circle1 {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background: rgb(20, 20, 158);
+  box-shadow: 0px 10px 5px #CCC;
+  position: absolute;
+  margin: auto;
+left: 0%;
+right: 11%;
+top: 15%;
+}
+   }
+
+@media (max-width: 991.98px) {
+  .slide-one-item .owl-nav {
+    display: none; } }
+
+.slide-one-item .owl-nav .owl-prev,
+.slide-one-item .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #000; }
+  .slide-one-item .owl-nav .owl-prev span,
+  .slide-one-item .owl-nav .owl-next span {
+    font-size: 30px; }
+  .slide-one-item .owl-nav .owl-prev:hover,
+  .slide-one-item .owl-nav .owl-next:hover {
+    color: #000; }
+  .slide-one-item .owl-nav .owl-prev:active, .slide-one-item .owl-nav .owl-prev:focus,
+  .slide-one-item .owl-nav .owl-next:active,
+  .slide-one-item .owl-nav .owl-next:focus {
+    outline: none; }
+
+
+    
+.slide-one-item .owl-nav .owl-prev {
+  left: 20px; }
+
+.slide-one-item .owl-nav .owl-next {
+  right: 20px; }
+
+.slide-one-item .owl-dots {
+position: absolute;
+top: 50px;
+width: 100%;
+text-align: right;
+right: 100px;
+  z-index: 2; }
+  .slide-one-item .owl-dots .owl-dot {
+    display: inline-block;
+   }
+    .slide-one-item .owl-dots .owl-dot > span {
+      -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      display: inline-block;
+      width: 60px;
+      border-radius: 30px !important;
+      height: 8px;
+      margin: 3px; 
+    }
+    .slide-one-item .owl-dots .owl-dot.active > span {
+      width: 56px;
+      height: 15px;
+      background: #FF6C5A; }
+
+
+      /* Feel free to change duration  */ 
+.animated  {
+  -webkit-animation-duration : 1500 ms  ;
+  animation-duration : 1500 ms  ;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+}  
+/* .owl-animated-out - only for current item */ 
+/* This is very important class. Use z-index if you want move Out item above In item */ 
+.owl-animated-out {
+  z-index : 1 
+   }
+/* .owl-animated-in - only for upcoming item
+/* This is very important class. Use z-index if you want move In item above Out item */ 
+.owl-animated-in {
+  z-index : 0 
+   }
+/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+.fadeOut  {
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}  
+@-webkit-keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+@keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+
+.column {
+      margin: 15px 15px 0;
+      padding: 0;
+    }
+
+    .column:last-child {
+      padding-bottom: 60px;
+    }
+
+    .column::after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+
+    .column div {
+      position: relative;
+      float: left;
+      width: 300px;
+      height: 200px;
+      margin: 0 0 0 25px;
+      padding: 0;
+    }
+
+    .column div:first-child {
+      margin-left: 0;
+    }
+
+    .column div span {
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 300px;
+      margin: 0;
+      padding: 0;
+      color: #444;
+      font-size: 18px;
+      text-decoration: none;
+      text-align: center;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      opacity: 0;
+    }
+
+      figure {
+      width: 30px;
+height: 10px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+     
+
+    }
+
+    figure:hover+span {
+      bottom: -120px;
+      opacity: 1;
+      height: 150px;
+      width: 320px;
+      background-color: #FF6C5A;
+      border-radius: 200px;
+
+      margin: auto;
+      position: absolute;
+      top: -110px;
+      bottom: 250px;
+    }
+
+
+
+    /* Zoom In #1 */
+    .hover01 figure img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover01 figure:hover img {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+
+    /* Zoom In #2 */
+    .hover02 figure img {
+      width: 300px;
+      height: auto;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover02 figure:hover img {
+      width: 350px;
+    }
+
+    /* Zoom Out #1 */
+    .hover03 figure img {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover03 figure:hover img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+
+    /* Zoom Out #2 */
+    .hover04 figure img {
+      width: 400px;
+      height: auto;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover04 figure:hover img {
+      width: 300px;
+    }
+
+    /* Slide */
+    .hover05 figure img {
+      margin-left: 30px;
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover05 figure:hover img {
+      margin-left: 0;
+    }
+
+    /* Rotate */
+    .hover06 figure img {
+      -webkit-transform: rotate(15deg) scale(1.4);
+      transform: rotate(15deg) scale(1.4);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover06 figure:hover img {
+      -webkit-transform: rotate(0) scale(1);
+      transform: rotate(0) scale(1);
+    }
+
+    /* Blur */
+    .hover07 figure img {
+      -webkit-filter: blur(3px);
+      filter: blur(3px);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover07 figure:hover img {
+      -webkit-filter: blur(0);
+      filter: blur(0);
+    }
+
+    /* Gray Scale */
+    .hover08 figure img {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover08 figure:hover img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+    }
+
+    /* Sepia */
+    .hover09 figure img {
+      -webkit-filter: sepia(100%);
+      filter: sepia(100%);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover09 figure:hover img {
+      -webkit-filter: sepia(0);
+      filter: sepia(0);
+    }
+
+    /* Blur + Gray Scale */
+    .hover10 figure img {
+      -webkit-filter: grayscale(0) blur(0);
+      filter: grayscale(0) blur(0);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover10 figure:hover img {
+      -webkit-filter: grayscale(100%) blur(3px);
+      filter: grayscale(100%) blur(3px);
+    }
+
+    /* Opacity #1 */
+    .hover11 figure img {
+      opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover11 figure:hover img {
+      opacity: .5;
+    }
+
+    /* Opacity #2 */
+    .hover12 figure {
+      background: #1abc9c;
+    }
+
+    .hover12 figure img {
+      opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .hover12 figure:hover img {
+      opacity: .5;
+    }
+
+    /* Flashing */
+    .hover13 figure:hover img {
+      opacity: 1;
+      -webkit-animation: flash 1.5s;
+      animation: flash 1.5s;
+    }
+
+    @-webkit-keyframes flash {
+      0% {
+        opacity: .4;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes flash {
+      0% {
+        opacity: .4;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Shine */
+    .hover14 figure {
+      position: relative;
+    }
+
+    .hover14 figure::before {
+      position: absolute;
+      top: 0;
+      left: -75%;
+      z-index: 2;
+      display: block;
+      content: '';
+      width: 50%;
+      height: 100%;
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+      -webkit-transform: skewX(-25deg);
+      transform: skewX(-25deg);
+    }
+
+    .hover14 figure:hover::before {
+      -webkit-animation: shine .75s;
+      animation: shine .75s;
+    }
+
+    @-webkit-keyframes shine {
+      100% {
+        left: 125%;
+      }
+    }
+
+    @keyframes shine {
+      100% {
+        left: 125%;
+      }
+    }
+
+    /* Circle */
+    .hover15 figure {
+      position: relative;
+    }
+
+    .hover15 figure::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 2;
+      display: block;
+      content: '';
+      width: 0;
+      height: 0;
+      background: rgba(255, 255, 255, .2);
+      border-radius: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+
+    .hover15 figure:hover::before {
+      -webkit-animation: circle .75s;
+      animation: circle .75s;
+    }
+
+    @-webkit-keyframes circle {
+      0% {
+        opacity: 1;
+      }
+
+      40% {
+        opacity: 1;
+      }
+
+      100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+      }
+    }
+
+    @keyframes circle {
+      0% {
+        opacity: 1;
+      }
+
+      40% {
+        opacity: 1;
+      }
+
+      100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+      }
+    }
+
+
+
+
+
+
+
+
+
